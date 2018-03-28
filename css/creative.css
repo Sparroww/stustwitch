@@ -40,6 +40,7 @@ h6 {
 
 .bg-primary {
   background-color: #F05F40 !important;
+  padding-top: 5rem;
 }
 
 .bg-dark {
@@ -51,7 +52,8 @@ h6 {
 }
 
 section {
-  padding: 6rem 0;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
 .section-heading {
@@ -220,9 +222,13 @@ header.masthead p {
 
 
 .stream {
-  padding: 5rem;
+  padding: 5rem 1rem;
   width: 100%;
   height: auto;
+}
+
+.boxHover{
+  box-shadow: 3px 3px #888888;
 }
 
 .portfolio-box {
@@ -231,6 +237,8 @@ header.masthead p {
   max-width: 650px;
   margin: 0 auto;
 }
+
+
 
 .portfolio-box .portfolio-box-caption {
   position: absolute;
@@ -277,6 +285,10 @@ header.masthead p {
 
 .portfolio-box:focus {
   outline: none;
+}
+
+#contact {
+  padding-top: 5rem;
 }
 
 @media (min-width: 768px) {
